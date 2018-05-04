@@ -1,0 +1,2 @@
+WareHouseA Catalog_A.txt TruckCatalog_A.txt Map_A.jpg
+WareHouseB Catalog_B.txt TruckCatalog_B.txt Map_B.jpg
