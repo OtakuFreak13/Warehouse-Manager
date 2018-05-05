@@ -6,7 +6,7 @@
 class WareHouseController
 {
 private:
-
+	void updateMap();
 public:
 	WareHouseController();
 };

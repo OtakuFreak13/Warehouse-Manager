@@ -16,7 +16,7 @@ private:
 public:
 	WareHouseCatalog();
 	void setCurrentWareHouse(string id);
-	//TODO en wareHouselista i form av vector?
+	//TODO ska vi ha en wareHouselista i form av vector? Asså bara namn som visas när man väljer warehouses från menyn
 	WareHouse *getCurrentWareHousePtr();
 };
 

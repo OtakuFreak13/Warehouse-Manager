@@ -23,13 +23,14 @@ void WareHouseCatalog::loadFromFile()
 	fileReader.close();
 }
 
-void WareHouseCatalog::setCurrentWareHouse(string id) //TODO måste fixas
+void WareHouseCatalog::setCurrentWareHouse(string id) 
 {
 	for (int i = 0; i < this->wareHouses.size(); i++)
 	{
 		if (wareHouses[i].getName() == id)
 		{
 			this->currentWareHouseIndex = i;
+			break; // inte snyggt med break men är för trött för att komma på nått bättre
 		}
 	}
 	
